@@ -18,7 +18,7 @@ export function SiteHeader() {
       <div className="header-inner">
         <Link href="/" className="brand" aria-label="Warmdaz Family home" onClick={() => setOpen(false)}>
           <span className="brand-symbol">W<span>·</span></span>
-          <span className="brand-name">WAR MDAZ <small>FAMILY</small></span>
+          <span className="brand-name">WARMDAZ <small>FAMILY</small></span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map((link) => <Link key={link.href} href={link.href}>{link.label}</Link>)}
