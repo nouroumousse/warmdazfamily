@@ -4,7 +4,6 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://warmdazfamily.org"),
   title: {
     default: "Warmdaz Family — Culture, Community & Connection",
     template: "%s | Warmdaz Family",
